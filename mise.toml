@@ -2,3 +2,14 @@
 deno = "2.2.6"
 poetry = { version="2.1.2", pyproject="{{ config_root }}/pyproject.toml" }
 python = "3.11" # must be after poetry so the poetry bin is first in PATH
+
+[tasks.setup]
+run = [
+    "mise install python",
+    "mise install",
+    "poetry install",
+    "deno jupyter --install"
+]
+
+[tasks.lab]
+run = "poetry run jupyter lab"
