@@ -1,21 +1,32 @@
 # mise-jupyterlab-deno
 
-🚀 A minimal template for running Deno inside JupyterLab, managed with mise.
+🚀 A template for running [Deno](https://deno.land) inside [JupyterLab](https://jupyter.org), managed with [mise](https://mise.jdx.dev).
 
-This template sets up JupyterLab and the Deno kernel using mise and a mise.toml configuration — no global installs, no clutter.
+Quickly scaffold your own Deno-powered JupyterLab environment using this template and [`degit`](https://github.com/Rich-Harris/degit).
+
+---
+
 
 ## 📦 Features
+
 - 🧪 Run Deno in JupyterLab notebooks
-- 📁 Minimal and reproducible setup
-- 🛠 Managed entirely with mise.toml
-- 💻 Supports TypeScript & JavaScript via Deno
+- 🛠 Environment managed via `mise.toml`
+- ✨ Minimal and reproducible setup
+- 💻 Supports TypeScript & JavaScript via Deno kernel
+
+---
 
 ## 🛠 Requirements
-- mise installed (curl https://mise.run | bash)
 
-## ⚙️ Setup
-```sh
-git clone https://github.com/your-username/mise-jupyterlab-deno.git
+- [mise](https://mise.jdx.dev) (`curl https://mise.run | bash`)
+- [Node.js](https://nodejs.org/) (for using `npx degit`)
+
+---
+
+## ⚙️ Quick Start
+
+```bash
+pnpm dlx degit neomparam/mise-jupyterlab-deno
 cd mise-jupyterlab-deno
 
 mise trust
@@ -24,10 +35,15 @@ mise run setup
 mise run lab
 ```
 
-## 🧪 Usage
+---
+
+## 📓 Usage
+
 1. In JupyterLab, click “Notebook” → “Deno” to create a new notebook.
 2. Write TypeScript or JavaScript.
 3. Run and enjoy Deno-powered notebooks!
+
+---
 
 ## 📄 License
 

@@ -1,2 +1,37 @@
-.venv/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Notebook checkpoints
 .ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter runtime
+.jupyter/
+*.local/share/jupyter/
+*.jupyter/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Python compiled files
+*.pyc
+*.pyo
+
+# mise data
+.mise/
+
+# Misc
+*.swp
