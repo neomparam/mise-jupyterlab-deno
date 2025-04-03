@@ -19,7 +19,7 @@ Quickly scaffold your own Deno-powered JupyterLab environment using this templat
 ## 🛠 Requirements
 
 - [mise](https://mise.jdx.dev) (`curl https://mise.run | bash`)
-- [Node.js](https://nodejs.org/) (for using `npx degit`)
+- [Node.js](https://nodejs.org/) (for using `pnpm dlx degit`)
 
 ---
 
